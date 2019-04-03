@@ -75,7 +75,7 @@ Humanoid.prototype.greet = function(){
 
 
   const mage = new Humanoid({
-    createdAt: Date.now(),
+    createdAt: new Date(),
     dimensions: {
       length: 2,
       width: 1,

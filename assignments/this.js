@@ -26,35 +26,20 @@ const dude = {
     }
 }
 console.log(dude.fun())
-
-// const hobbit = {
-//     name: 'Samewise',
-//     age: 55,
-//     food: 'taters',
-//     cook (){
-//         return `${this.name} loves to cook ${this.food}`
-//     },
-//     friend: {
-//         name: `Frodo`,
-//         speak(){
-//             return `Hello ${this.name}`
-//         }
-//     }
-// }
-//     console.log(hobbit.cook())
 // code example for Implicit Binding
 
 // Principle 3
-function Animal(food) {
+function Chiwuawua(food) {
   this.food = food
-  this.color = 'white and brown'
+  this.color = 'brown'
+  this.bark = 'LOUD!!'
   this.eat = function () {
     console.log(`This animal likes to eat ${this.food}`)
   }
 }
 
-const zebra = new Animal('grass')
-console.log(zebra)
+const dog = new Chiwuawua('dog-food')
+console.log(dog)
 // code example for New Binding
 
 // Principle 4
